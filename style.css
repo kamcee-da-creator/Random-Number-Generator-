@@ -15,8 +15,9 @@ body {
   justify-content: center;
   background: black;
   color: white;
-  height: 100dvh;
+  height: 95dvh;
   text-align: center;
+  overflow-y: hidden;
 }
 .label {
   font-size: 10em;
@@ -39,4 +40,8 @@ footer{
   font-size: 0.61rem;
   position: absolute;
   bottom: 30px;
+}
+dotlottie-player{
+  position: absolute;
+  display: none;
 }
