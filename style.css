@@ -30,7 +30,7 @@ button {
   border: none;
   outline: none;
   cursor: pointer;
-
+z-index: 40000;
 }
 .response{
   margin-top: 1rem;
@@ -43,5 +43,5 @@ footer{
 }
 dotlottie-player{
   position: absolute;
-  display: none;
+  display: none;z-index: -1;
 }
